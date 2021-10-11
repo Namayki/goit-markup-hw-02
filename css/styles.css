@@ -138,10 +138,27 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--second-header-color)
 }
+/* -------------typography---------- */
+
+.typography-title {
+font-weight: bold;
+font-size: 36px;
+line-height: 14;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--header-color);
+}
+
 
 /* ------team----- */
-.team-title {
 
+.team-title {
+font-weight: bold;
+font-size: 36px;
+line-height: 14;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--header-color);
 }
 .team-list {
 font-size: 16px;
