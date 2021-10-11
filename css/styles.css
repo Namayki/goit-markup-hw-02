@@ -1,149 +1,179 @@
- 
- 
+:root {
+--header-color: #212121;
+--second-header-color: #757575;
+--title-color: #FFFFFF;
+--accent-color: #2196F3;
+--background-origin: #2F303A;
+}
+
 body {
-font-family: Roboto;
-color: #212121;
-background-color: #FFFFFF;
- }
+font-family: 'Roboto', sans-serif;
+}
 
+.list {
+list-style: none;
+}
 
-.footer {
-position: absolute;
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2097px;
-background-color:#2F303A;
- }
+.link {
+text-decoration: none;
+}
 
+.menu-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--header-color)
+}
 
-.link-logo {
-font-family: Raleway;
+.menu-link:hover, 
+.menu-link:focus {
+color: var(--accent-color)
+}
+
+.header-tel {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--second-header-color)
+.header-tel:hover, 
+.header-tel:focus {
+color: var(--accent-color)
+}
+
+.logo {
 font-weight: bold;
 font-size: 26px;
-line-height: 31px;
-width: 145px;
-left: 215px;
-color:#2196F3;
-color:#000000;
-}
-.link-logo :hover {
-color: #2196F3;
-color:#000000;
-}
-.link-logo :focus {
-color: #2196F3;
-color:#000000;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--accent-color)
 }
 
+.header-logo-dark {
+color: #000000;
+}
+.header-logo-light {
+color: var(--title-color);
+}
+
+.footer {
+background-color: var(--background-origin)
+}
+.footer-address-list {
+color: var(--title-color)
+}
+.footer-address-link:hover,
+.footer-address-link:focus {
+color:var(--accent-color)
+}
 
 
- .link  { 
- cursor: pointer;
- color:#212121;
- font-size: 14px;
- }  
- .link :hover { 
- color:#2196F3;
- }
- .link :focus { 
- color:#2196F3;
- }
+/* ------------- hero ------------- */
 
+.hero {
+background-color: var(--background-origin)
+}
 
-
-.heading {
-position: absolute;
-width: 696px;
-height: 120px;
-left: 452px;
-top: 280px;
-font-family: Roboto;
-font-style: normal;
+ 
+.hero-title {
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF; 
-}
-        
-
-
-.link-button {
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-letter-spacing: 0.03em;
-color:#212121;
-}
-.link-button :hover {
-color:#FFFFFF;
-background-color:#212121;
-}
-.link-button :focus {
-color:#FFFFFF;
-background-color:#212121;
-}
- 
-
-
-.feature {
-font-size: 16px;
-text-align: center;
-color:#212121;
-}
-.text {
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: #757575;
+color: var(--title-color);
 }
 
 
-.subtitle {
+/* -----button----- */
+
+.hero-btn {
 font-weight: bold;
-font-size: 36px;
-line-height: 42px;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
 text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
+letter-spacing: 0.06em;
+color: var(--title-color);
 }
-.name {
-font-style: normal;
+.btn:hover, 
+.btn:focus {
+}
+    
+.main-btn {
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.63;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--header-color);
 }
-.style {
-font-style: normal;
-font-weight: normal;
+.main-btn:hover, 
+.main-btn:focus {
+color: var(--title-color)
+}
+
+
+
+/* -----Feature------ */
+
+.feature-list {
+
+}
+.feature-title {
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--header-color);
+}
+.feature-item {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--second-header-color)
+}
+
+/* ------team----- */
+.team{
+
+}
+.team-list {
 font-size: 16px;
-line-height: 19px;
+line-height: 1.19x;
 text-align: center;
 letter-spacing: 0.03em;
-color: #757575;
+}
+.team-item-title {
+font-weight: 500;
+color: var(--header-color);
+}
+.team-item-text {
+font-weight: normal;
+color: var(--second-header-color);
 }
 
 
-.preview {
-font-style: normal;
+/* ------Projects------ */
+
+.projects-list {
+
+}
+.project-title {
 font-weight: bold;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
-color: #212121;
+color: var(--header-color);
 }
-.subject {
-font-style: normal;
+.project-item {
 font-weight: normal;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--second-header-color);
 }
