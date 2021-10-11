@@ -36,7 +36,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: var(--second-header-color)
+color: var(--second-header-color)}
 .header-tel:hover, 
 .header-tel:focus {
 color: var(--accent-color)
@@ -90,6 +90,7 @@ color: var(--title-color);
 /* -----button----- */
 
 .hero-btn {
+font-family: inherit;
 font-weight: bold;
 font-size: 16px;
 line-height: 1.87;
@@ -139,7 +140,7 @@ color: var(--second-header-color)
 }
 
 /* ------team----- */
-.team{
+.team-title {
 
 }
 .team-list {
