@@ -7,7 +7,10 @@
 }
 
 body {
-font-family: 'Roboto', sans-serif;
+font-family: Roboto, 
+'Segoe UI', Oxygen, Ubuntu, Cantarell, 
+'Open Sans', 'Helvetica Neue', sans-serif;
+color:var(--header-color);
 }
 
 .list {
@@ -16,6 +19,9 @@ list-style: none;
 
 .link {
 text-decoration: none;
+}
+.header-nav .current {
+color: var(--accent-color)
 }
 
 .menu-link {
@@ -66,6 +72,9 @@ font-style: normal;
 }
 
 .footer-address-link {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
 color: var(--title-color)
 }
 .footer-address-link:hover,
@@ -118,6 +127,7 @@ background-color: var(--accent-color);
 
     
 .main-btn {
+cursor: pointer;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
@@ -130,6 +140,10 @@ color: var(--header-color);
 color: var(--title-color)
 }
 
+.main-btn:hover, 
+.main-btn:focus {
+background-color: var(--accent-color);
+}
 
 
 /* -----Feature------ */
