@@ -29,10 +29,14 @@ text-decoration: none;
 color: var(--accent-color);
 }
 
-.menu-link {
-font-weight: 500;
+.nav-menu,
+.footer-address-link {
 font-size: 14px;
 line-height: 1.14;
+}
+
+.menu-link {
+font-weight: 500;
 letter-spacing: 0.02em;
 color: var(--header-color);
 }
@@ -42,12 +46,12 @@ color: var(--header-color);
 color: var(--accent-color);
 }
 
-.header-tel {
+.personal-information-list {
 color: var(--second-header-color);
 }
 
-.header-tel:hover, 
-.header-tel:focus {
+.personal-information-list:hover, 
+.personal-information-list:focus {
 color: var(--accent-color);
 }
 
@@ -72,7 +76,7 @@ color: var(--title-color);
 
 /* --------------- footer --------------- */
 
-.footer {
+.footer-menu-link {
 background-color: var(--background-origin);
 }
 
@@ -83,8 +87,6 @@ font-style: normal;
 /* --------------- address ---------------  */
 
 .footer-address-link {
-font-size: 14px;
-line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--title-color);
 }
@@ -94,7 +96,8 @@ color: var(--title-color);
 color:var(--accent-color);
 }
 
-.footer-e-mail, .footer-tel {
+.footer-e-mail, 
+.footer-tel {
 font-style: normal;
 font-weight: normal;
 color: var(--footer-contacts);
@@ -118,12 +121,16 @@ color: var(--title-color);
 
 /* --------------- button --------------- */
 
+.hero-btn,
+.project-item {
+font-size: 16px;
+line-height: 1.87;
+}
+
 .hero-btn {
 cursor: pointer;
 font-family: inherit;
 font-weight: bold;
-font-size: 16px;
-line-height: 1.87;
 display: flex;
 align-items: center;
 text-align: center;
@@ -131,7 +138,7 @@ letter-spacing: 0.06em;
 color: var(--title-color);
 background-color: var(--accent-color);
 }
-    
+  
 .main-btn {
 cursor: pointer;
 font-weight: 500;
@@ -155,9 +162,8 @@ background-color: var(--accent-color);
 /* --------------- feature --------------- */
 
 .feature-title {
+font-style: normal;
 font-weight: bold;
-font-size: 14px;
-line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--header-color);
@@ -172,21 +178,14 @@ color: var(--second-header-color);
 
 /* --------------- typography --------------- */
 
-.typography-title {
-font-weight: bold;
-font-size: 36px;
-line-height: 14;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--header-color);
-}
-
 /* --------------- team --------------- */
 
+.typography-title,
 .team-title {
+font-style: normal;
 font-weight: bold;
 font-size: 36px;
-line-height: 14;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--header-color);
@@ -221,10 +220,6 @@ color: var(--header-color);
 
 .project-item {
 font-weight: normal;
-font-size: 16px;
-line-height: 1.87;
 letter-spacing: 0.03em;
 color: var(--second-header-color);
 }
-
-
