@@ -16,6 +16,10 @@ font-family: Roboto,
 color:var(--header-color);
 }
 
+button {
+    cursor: pointer;
+}
+
 .list {
 list-style: none;
 }
@@ -30,8 +34,7 @@ text-decoration: none;
 color: var(--accent-color);
 }
 
-.nav-menu,
-.footer-address-link {
+.nav-menu {
 font-size: 14px;
 line-height: 1.14;
 }
@@ -72,13 +75,13 @@ color: var(--accent-color);
 color: var(--header-logo-dark);
 }
 
-.header-logo-light {
+.footer-logo-light {
 color: var(--title-color);
 }
 
 /* --------------- footer --------------- */
 
-.footer-menu-link {
+.footer {
 background-color: var(--background-origin);
 }
 
@@ -89,6 +92,8 @@ font-style: normal;
 /* --------------- address ---------------  */
 
 .footer-address-link {
+font-size: 14px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 color: var(--title-color);
 }
@@ -130,7 +135,6 @@ line-height: 1.87;
 }
 
 .hero-btn {
-cursor: pointer;
 font-family: inherit;
 font-weight: bold;
 display: flex;
@@ -141,8 +145,7 @@ color: var(--title-color);
 background-color: var(--accent-color);
 }
   
-.main-btn {
-cursor: pointer;
+.btn-portfolio {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
@@ -151,13 +154,13 @@ letter-spacing: 0.03em;
 color: var(--header-color);
 }
 
-.main-btn:hover, 
-.main-btn:focus {
+.btn-portfolio:hover, 
+.btn-portfolio:focus {
 color: var(--title-color);
 }
 
-.main-btn:hover, 
-.main-btn:focus {
+.btn-portfolio:hover, 
+.btn-portfolio:focus {
 background-color: var(--accent-color);
 }
 
@@ -166,12 +169,14 @@ background-color: var(--accent-color);
 .feature-title {
 font-style: normal;
 font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--header-color);
 }
 
-.feature-item {
+.feature-text {
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -200,6 +205,10 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 
+.team-item {
+    background-color: var(--title-color);
+}
+
 .team-item-title {
 font-weight: 500;
 color: var(--header-color);
@@ -220,7 +229,7 @@ letter-spacing: 0.06em;
 color: var(--header-color);
 }
 
-.project-item {
+.project-text {
 font-weight: normal;
 letter-spacing: 0.03em;
 color: var(--second-header-color);
